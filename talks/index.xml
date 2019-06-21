@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent Talks on Andrew Moore</title>
+    <link>/talks/</link>
+    <description>Recent content in Recent Talks on Andrew Moore</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Mar 2018 13:00:00 +0100</lastBuildDate>
+    
+	    <atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How can World Knowledge and In-Depth Evaluation Improve Sentiment Analysis</title>
+      <link>/talk/scc_phd_conference_2018/</link>
+      <pubDate>Fri, 02 Mar 2018 13:00:00 +0100</pubDate>
+      
+      <guid>/talk/scc_phd_conference_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Past, Present and Potential Future of Releasing Software with my Publications</title>
+      <link>/talk/data_conversations_2017/</link>
+      <pubDate>Fri, 03 Nov 2017 15:00:00 +0100</pubDate>
+      
+      <guid>/talk/data_conversations_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Sentiment Analysis at the UCREL NLP Summer School</title>
+      <link>/talk/ucrel_2017_summer_school/</link>
+      <pubDate>Sun, 25 Jun 2017 09:00:00 +0100</pubDate>
+      
+      <guid>/talk/ucrel_2017_summer_school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation metrics matter: predicting sentiment from financial news headlines</title>
+      <link>/talk/ucrel_2017_evaluation_metrics_matter/</link>
+      <pubDate>Thu, 16 Mar 2017 15:00:00 +0100</pubDate>
+      
+      <guid>/talk/ucrel_2017_evaluation_metrics_matter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

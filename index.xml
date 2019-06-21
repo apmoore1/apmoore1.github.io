@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew Moore</title>
+    <link>/</link>
+    <description>Recent content on Andrew Moore</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bringing replication and reproduction together with generalisability in NLP: Three reproduction studies for Target Dependent Sentiment Analysis</title>
+      <link>/publication/moore-rayson-2018-bringing/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moore-rayson-2018-bringing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How can World Knowledge and In-Depth Evaluation Improve Sentiment Analysis</title>
+      <link>/talk/scc_phd_conference_2018/</link>
+      <pubDate>Fri, 02 Mar 2018 13:00:00 +0100</pubDate>
+      
+      <guid>/talk/scc_phd_conference_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Past, Present and Potential Future of Releasing Software with my Publications</title>
+      <link>/talk/data_conversations_2017/</link>
+      <pubDate>Fri, 03 Nov 2017 15:00:00 +0100</pubDate>
+      
+      <guid>/talk/data_conversations_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lancaster A at SemEval-2017 Task 5: Evaluation metrics matter: predicting sentiment from financial news headlines</title>
+      <link>/publication/moore-rayson-2017-lancaster/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moore-rayson-2017-lancaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Sentiment Analysis at the UCREL NLP Summer School</title>
+      <link>/talk/ucrel_2017_summer_school/</link>
+      <pubDate>Sun, 25 Jun 2017 09:00:00 +0100</pubDate>
+      
+      <guid>/talk/ucrel_2017_summer_school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation metrics matter: predicting sentiment from financial news headlines</title>
+      <link>/talk/ucrel_2017_evaluation_metrics_matter/</link>
+      <pubDate>Thu, 16 Mar 2017 15:00:00 +0100</pubDate>
+      
+      <guid>/talk/ucrel_2017_evaluation_metrics_matter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Interactive Multidimensional Visualisations for Corpus Linguistics</title>
+      <link>/publication/rayson-2017-towards/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/rayson-2017-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation using Stock Market Prices to Refine Sentiment Dictionaries</title>
+      <link>/publication/moore-2016-domain/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moore-2016-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Tone and Attribution for Financial Text Mining</title>
+      <link>/publication/el-haj-etal-2016-learning/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/el-haj-etal-2016-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
