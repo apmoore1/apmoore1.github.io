@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Andrew Moore</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>FIESTA: Fast IdEntification of State-of-The-Art models using adaptive bandit algorithms</title>
+      <link>/publication/moss-2019-fiesta/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moss-2019-fiesta/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bringing replication and reproduction together with generalisability in NLP: Three reproduction studies for Target Dependent Sentiment Analysis</title>
