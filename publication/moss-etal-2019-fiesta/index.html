@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="I go over the importance of domain specific sentiment lexicons within the finicial domain. Further I show the reason why you should evaluate your Target/Aspect Based Sentiment Analysis models on multiple and different datasets.">
+  <meta name="description" content="We present FIESTA, a model selection approach that significantly reduces the computational resources required to reliably identify state-of-the-art performance from large collections of candidate models. Despite being known to produce unreliable comparisons, it is still common practice to compare model evaluations based on single choices of random seeds. We show that reliable model selection also requires evaluations based on multiple train-test splits (contrary to common practice in many shared tasks). Using bandit theory from the statistics literature, we are able to adaptively determine appropriate numbers of data splits and random seeds used to evaluate each model, focusing computational resources on the evaluation of promising models whilst avoiding wasting evaluations on models with lower performance. Furthermore, our user-friendly Python implementation produces confidence guarantees of correctly selecting the optimal model. We evaluate our algorithms by selecting between 8 target-dependent sentiment analysis methods using dramatically fewer model evaluations than current model selection approaches.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/talk/scc_phd_conference_2018/">
+  <link rel="alternate" hreflang="en-us" href="/publication/moss-etal-2019-fiesta/">
 
   
 
@@ -96,29 +96,28 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/talk/scc_phd_conference_2018/">
+  <link rel="canonical" href="/publication/moss-etal-2019-fiesta/">
 
   
   
   
   
     
-    
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@apmoore94">
   <meta property="twitter:creator" content="@apmoore94">
   
   <meta property="og:site_name" content="Andrew Moore">
-  <meta property="og:url" content="/talk/scc_phd_conference_2018/">
-  <meta property="og:title" content="How can World Knowledge and In-Depth Evaluation Improve Sentiment Analysis | Andrew Moore">
-  <meta property="og:description" content="I go over the importance of domain specific sentiment lexicons within the finicial domain. Further I show the reason why you should evaluate your Target/Aspect Based Sentiment Analysis models on multiple and different datasets."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/publication/moss-etal-2019-fiesta/">
+  <meta property="og:title" content="FIESTA: Fast IdEntification of State-of-The-Art models using adaptive bandit algorithms | Andrew Moore">
+  <meta property="og:description" content="We present FIESTA, a model selection approach that significantly reduces the computational resources required to reliably identify state-of-the-art performance from large collections of candidate models. Despite being known to produce unreliable comparisons, it is still common practice to compare model evaluations based on single choices of random seeds. We show that reliable model selection also requires evaluations based on multiple train-test splits (contrary to common practice in many shared tasks). Using bandit theory from the statistics literature, we are able to adaptively determine appropriate numbers of data splits and random seeds used to evaluate each model, focusing computational resources on the evaluation of promising models whilst avoiding wasting evaluations on models with lower performance. Furthermore, our user-friendly Python implementation produces confidence guarantees of correctly selecting the optimal model. We evaluate our algorithms by selecting between 8 target-dependent sentiment analysis methods using dramatically fewer model evaluations than current model selection approaches."><meta property="og:image" content="/publication/moss-etal-2019-fiesta/featured.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-03-02T13:00:00&#43;01:00">
+  <meta property="article:published_time" content="2019-08-11T09:36:31&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-03-02T13:00:00&#43;01:00">
+  <meta property="article:modified_time" content="2019-07-01T00:00:00&#43;00:00">
   
 
   
@@ -156,7 +155,7 @@
 
 
 
-  <title>How can World Knowledge and In-Depth Evaluation Improve Sentiment Analysis | Andrew Moore</title>
+  <title>FIESTA: Fast IdEntification of State-of-The-Art models using adaptive bandit algorithms | Andrew Moore</title>
 
 </head>
 
@@ -355,7 +354,7 @@
 </nav>
 
 
-  <div class="pub" itemscope itemtype="http://schema.org/Event">
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -376,7 +375,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">How can World Knowledge and In-Depth Evaluation Improve Sentiment Analysis</h1>
+  <h1 itemprop="name">FIESTA: Fast IdEntification of State-of-The-Art models using adaptive bandit algorithms</h1>
 
   
 
@@ -385,8 +384,8 @@
 
 
 
-<meta content="2018-03-02 13:00:00 &#43;0100 &#43;0100" itemprop="datePublished">
-<meta content="2018-03-02 13:00:00 &#43;0100 &#43;0100" itemprop="dateModified">
+<meta content="2019-07-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-07-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -399,12 +398,20 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Andrew Moore</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person">Henry Moss</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Andrew Moore</span>, <span itemprop="author name" itemtype="http://schema.org/Person">David Leslie</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Paul Rayson</span>
 
   </div>
   
   
 
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>July 2019</time>
+  </span>
   
 
   
@@ -423,35 +430,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=How%20can%20World%20Knowledge%20and%20In-Depth%20Evaluation%20Improve%20Sentiment%20Analysis&amp;url=%2ftalk%2fscc_phd_conference_2018%2f"
+         href="https://twitter.com/intent/tweet?text=FIESTA%3a%20Fast%20IdEntification%20of%20State-of-The-Art%20models%20using%20adaptive%20bandit%20algorithms&amp;url=%2fpublication%2fmoss-etal-2019-fiesta%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2ftalk%2fscc_phd_conference_2018%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fmoss-etal-2019-fiesta%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2fscc_phd_conference_2018%2f&amp;title=How%20can%20World%20Knowledge%20and%20In-Depth%20Evaluation%20Improve%20Sentiment%20Analysis"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fmoss-etal-2019-fiesta%2f&amp;title=FIESTA%3a%20Fast%20IdEntification%20of%20State-of-The-Art%20models%20using%20adaptive%20bandit%20algorithms"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2ftalk%2fscc_phd_conference_2018%2f&amp;title=How%20can%20World%20Knowledge%20and%20In-Depth%20Evaluation%20Improve%20Sentiment%20Analysis"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fmoss-etal-2019-fiesta%2f&amp;title=FIESTA%3a%20Fast%20IdEntification%20of%20State-of-The-Art%20models%20using%20adaptive%20bandit%20algorithms"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=How%20can%20World%20Knowledge%20and%20In-Depth%20Evaluation%20Improve%20Sentiment%20Analysis&amp;body=%2ftalk%2fscc_phd_conference_2018%2f">
+         href="mailto:?subject=FIESTA%3a%20Fast%20IdEntification%20of%20State-of-The-Art%20models%20using%20adaptive%20bandit%20algorithms&amp;body=%2fpublication%2fmoss-etal-2019-fiesta%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -475,6 +482,8 @@
 
 
 
+  
+
 
 
 <div class="btn-links mb-3">
@@ -489,26 +498,37 @@
 
 
   
+    
+  
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.aclweb.org/anthology/P19-1281" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
-
-
-
-
-
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/moss-etal-2019-fiesta/moss-etal-2019-fiesta.bib">
+  Cite
+</button>
 
 
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/apmoore1/presentations/blob/master/SCC%20PhD%20Conference/slides.pdf" target="_blank" rel="noopener">
-  Slides
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/apmoore1/fiesta" target="_blank" rel="noopener">
+  Code
 </a>
+
+
+
+
+
+
+
 
 
 
@@ -527,56 +547,38 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">I go over the importance of domain specific sentiment lexicons within the finicial domain. Further I show the reason why you should evaluate your Target/Aspect Based Sentiment Analysis models on multiple and different datasets.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">We present FIESTA, a model selection approach that significantly reduces the computational resources required to reliably identify state-of-the-art performance from large collections of candidate models. Despite being known to produce unreliable comparisons, it is still common practice to compare model evaluations based on single choices of random seeds. We show that reliable model selection also requires evaluations based on multiple train-test splits (contrary to common practice in many shared tasks). Using bandit theory from the statistics literature, we are able to adaptively determine appropriate numbers of data splits and random seeds used to evaluate each model, focusing computational resources on the evaluation of promising models whilst avoiding wasting evaluations on models with lower performance. Furthermore, our user-friendly Python implementation produces confidence guarantees of correctly selecting the optimal model. We evaluate our algorithms by selecting between 8 target-dependent sentiment analysis methods using dramatically fewer model evaluations than current model selection approaches.</p>
     
 
+    
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            
-            2 March, 2018
-            <div class="talk-time">
-              
-                1:00 PM
-                
-                  &mdash; 1:30 PM
-                
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://www.lancaster.ac.uk/scc/" target="_blank" rel="noopener">
-            School of Computing and Communications PhD Conference
+            
+            
+            <a href="/publications/#1">
+              Conference paper
             </a>
+            
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
     <div class="d-md-none space-below"></div>
+    
 
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Lancaster University</div>
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -586,9 +588,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
 
     
 
